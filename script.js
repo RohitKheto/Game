@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Add click event to the play button
         card.querySelector('.play-btn').addEventListener('click', () => {
-            window.location.href = url;
+            window.open(url, '_blank');
         });
     });
 });
